@@ -47,6 +47,3 @@ It wrote the code, ran away, and now the game is unplayable.
 ```text
 ============================== 3 passed ==============================
 
-## 🚀 Stretch Features
-
-- [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
