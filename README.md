@@ -25,29 +25,27 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] The game is a Streamlit number guessing game where the player tries to guess a secret number.
+- [x] I found bugs where the hints were reversed, the secret number was changed into a string, and the New Game button did not fully reset the game.
+- [x] I fixed the hint logic, refactored the logic into `logic_utils.py`, removed the string conversion bug, and reset the game state correctly.
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
-
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. The game starts with a random secret number.
+2. The user enters a guess that is too low.
+3. The game responds with "GO HIGHER!"
+4. The user enters a guess that is too high.
+5. The game responds with "GO LOWER!"
+6. The user enters the correct guess.
+7. The game displays a win message and final score.
+8. The user clicks "New Game" and the game resets correctly.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
+```text
+============================== 3 passed ==============================
 
 ## 🚀 Stretch Features
 
